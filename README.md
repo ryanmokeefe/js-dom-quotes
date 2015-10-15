@@ -9,7 +9,7 @@
 6. Select "elements" from top ribbon
 7. Click ' >_ ' on right of ribbon to open the console
 
-## Exercise
+## Exercise - Selecting DOM elements
 
 1. Using relative selection, select the &lt;p&gt; element containing the second Mark Twain quote
 2. Do the same using a query selector
