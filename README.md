@@ -11,9 +11,9 @@
 
 This is an exercise in finding elements on the page (in the DOM).
 
-Your task is to choose items on the web page and write the javascript necessary to retrieve the objects which represent those elements.
+Your task is to write javascript, in the console, to retrieve the objects which represent these elements.
 
-Some suggestions:
+Start with these:
 1. Select the `<body>`
 - Select the `<header>`
 - Select all of the elements with class .quote
@@ -23,6 +23,10 @@ Some suggestions:
 - Using relative selection, select the `<p>` element containing the second Mark Twain quote
 - Do the same using a query selector
 - Select the 'Quotes About Motivation' heading
+
+Next:
+
+Once you find those, pick various items on the page and retrieve their objects.
 
 ### Bonus
  Using the console, add the author's last name, as a class, to one of the quotes.
