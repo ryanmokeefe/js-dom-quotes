@@ -17,7 +17,7 @@ Start with these:
 
 1. Select the `<body>`
 - Select the `<header>`
-- Select all of the elements with class .quote
+- Select all of the elements with class "quote"
 - Select all of the subject elements
 - Select the navigation links
 - Select all the quotes in the "life" section.
