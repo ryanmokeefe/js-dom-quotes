@@ -14,6 +14,7 @@ This is an exercise in finding elements on the page (in the DOM).
 Your task is to write javascript, in the console, to retrieve the objects which represent these elements.
 
 Start with these:
+
 1. Select the `<body>`
 - Select the `<header>`
 - Select all of the elements with class .quote
