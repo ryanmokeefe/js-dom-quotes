@@ -9,11 +9,24 @@
 
 ## Exercise - Selecting DOM elements
 
-1. Using relative selection, select the &lt;p&gt; element containing the second Mark Twain quote
-- Do the same using a query selector
+This is an exercise in finding elements on the page (in the DOM).
+
+Your task is to write javascript, in the console, to retrieve the objects which represent these elements.
+
+Start with these:
+1. Select the `<body>`
+- Select the `<header>`
 - Select all of the elements with class .quote
+- Select all of the subject elements
+- Select the navigation links
+- Select all the quotes in the "life" section.
+- Using relative selection, select the `<p>` element containing the second Mark Twain quote
+- Do the same using a query selector
 - Select the 'Quotes About Motivation' heading
-- Select all of the elements with class .subject
+
+Next:
+
+Once you find those, pick various items on the page and retrieve their objects.
 
 ### Bonus
-The first section has a class subject. Add a class 'simplicity' from the console
+ Using the console, add the author's last name, as a class, to one of the quotes.
