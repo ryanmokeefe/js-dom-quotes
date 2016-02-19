@@ -25,4 +25,4 @@ Some suggestions:
 - Select the 'Quotes About Motivation' heading
 
 ### Bonus
-The first section has a class subject. Add a class 'simplicity' from the console
+ Using the console, add the author's last name, as a class, to one of the quotes.
