@@ -3,15 +3,14 @@
 
 1. Clone this repo and `cd js-dom-quotes`
 - Open the index page in your browser: `chrome index.html`
+- Add jQuery to the page. ([You can use this CDN](https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js))
 - Open Chrome's developer tools: <kbd>command + option + j</kbd>
-- Select "elements" from top ribbon
-- Open the console too, by pressing <kbd>Esc</kbd>
 
 ## Exercise - Selecting DOM elements
 
 This is an exercise in finding elements on the page (in the DOM).
 
-Your task is to write javascript, in the console, to retrieve the objects which represent these elements.
+Your task is to write javascript **in the console** to retrieve the objects which represent these elements.
 
 Start with these:
 
@@ -21,13 +20,14 @@ Start with these:
 - Select all of the subject elements
 - Select the navigation links
 - Select all the quotes in the "life" section.
-- Using relative selection, select the `<p>` element containing the second Mark Twain quote
-- Do the same using a query selector
 - Select the 'Quotes About Motivation' heading
+- Select the `<p>` element containing the **second** Mark Twain quote
+- Do the same, this time starting with `$("#mark-twain")` and using jQuery's DOM traversal methods
 
 Next:
 
 Once you find those, pick various items on the page and retrieve their objects.
 
 ### Bonus
- Using the console, add the author's last name, as a class, to one of the quotes.
+
+Using the console, add the author's last name, as a class, to one of the quotes.
