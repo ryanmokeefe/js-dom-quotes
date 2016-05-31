@@ -12,7 +12,7 @@ This is an exercise in finding elements on the page (in the DOM).
 
 Your task is to write javascript **in the console** to retrieve the objects which represent these elements.
 
-Start with these:
+### Part 1
 
 1. Select the `<body>`
 - Select the `<header>`
@@ -22,12 +22,20 @@ Start with these:
 - Select all the quotes in the "life" section.
 - Select the 'Quotes About Motivation' heading
 - Select the `<p>` element containing the **second** Mark Twain quote
-- Do the same, this time starting with `$("#mark-twain")` and using jQuery's DOM traversal methods
 
-Next:
+### Part 2
 
-Once you find those, pick various items on the page and retrieve their objects.
+Do the same as before, but this time **with no spaces or colons in `$( )`**. That is: retrieve the target element(s) **using only DOM traversal methods** from [jQuery's documentation](http://api.jquery.com/category/traversing/tree-traversal/).
 
-### Bonus
+#### OK:
 
-Using the console, add the author's last name, as a class, to one of the quotes.
+```js
+$(".life").find(".quote");
+```
+
+#### Not OK:
+
+```js
+$(".life .quote");
+```
+
