@@ -2,6 +2,7 @@
 ## Set up
 
 1. Clone this repo and `cd js-dom-quotes`
+-  Get the jQuery branch locally by typing `git checkout -b jquery origin/jquery`
 - Open the index page in your browser: `chrome index.html`
 - Add jQuery to the page. ([You can use this CDN](https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js))
 - Open Chrome's developer tools: <kbd>command + option + j</kbd>
@@ -38,4 +39,3 @@ $(".life").find(".quote");
 ```js
 $(".life .quote");
 ```
-
