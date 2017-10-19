@@ -22,10 +22,10 @@ Your task is to write javascript **in the console** to retrieve the objects whic
 1. Select the `<body>`
 2. Select the `<header>`
 3. Select all of the elements with class "quote"
-4. Select all of the subject elements
+4. Select all of the elements with class "subject"
 5. Select the navigation links
 6. Select all the quotes in the "life" section.
-7. Select the 'Quotes About Motivation' heading
+7. Select the "Quotes About Motivation" heading
 8. Select the `<p>` element containing the **second** Mark Twain quote
 
 ### Part 2
