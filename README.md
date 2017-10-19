@@ -3,9 +3,12 @@
 ## Set up
 
 1. Clone this repo and `$ cd js-dom-quotes`
-2.  Get the jQuery branch locally by typing `$ git checkout -b jquery origin/jquery`
+2.  Get the jQuery branch locally by typing `$ git checkout jquery`
 3. Open the index page in your browser: `$ open index.html`
-4. Add jQuery to the page. ([You can use this CDN](https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js))
+4. Add jQuery to the page via a CDN:
+    ```html
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    ```
 5. Open Chrome's developer tools: <kbd>command + option + j</kbd>
 
 ## Exercise: Selecting DOM elements
