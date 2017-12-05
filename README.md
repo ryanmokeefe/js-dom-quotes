@@ -32,14 +32,21 @@ Your task is to write javascript **in the console** to retrieve the objects whic
 
 Do the same as before, but this time **with no spaces or colons in `$( )`**. That is: retrieve the target element(s) **using only DOM traversal methods** from [jQuery's documentation](http://api.jquery.com/category/traversing/tree-traversal/).
 
-#### OK:
+#### jQuery Style
 
+Listed below are two different ways of selecting an element with jQuery.
+
+> Using the jQuery method `.find()`...
 ```js
 $(".life").find(".quote");
 ```
 
-#### Not OK:
-
+> Using a CSS-style selector...
 ```js
 $(".life .quote");
 ```
+
+##### Differences
+  - https://api.jquery.com/find/
+  - https://stackoverflow.com/questions/6230266/jquery-single-selector-vs-find
+  - https://stackoverflow.com/questions/12177679/difference-between-parent-child-and-parent-findchild-in-jquery/12177876#12177876
